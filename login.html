@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pet Paradise | Sign In</title>
+  	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/login.css">
+
+  
+</head>
+
+<body>
+
+<!-- Navbar Starts -->
+	
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	 <div class="container">
+	  <a class="navbar-brand" href="home.html">Pet Paradise</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link nav-color" href="index.html">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link nav-color dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Brands
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item nav-color" href="#">Brit</a>
+	          <a class="dropdown-item nav-color" href="#">Ivy</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item nav-color" href="#">All</a>
+	        </div>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link nav-color dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Pets
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item nav-color" href="#">Cats</a>
+	          <a class="dropdown-item nav-color" href="#">Dogs</a>
+	          <a class="dropdown-item nav-color" href="#">Birds</a>
+	          <a class="dropdown-item nav-color" href="#">Fish</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item nav-color" href="#">All</a>
+	        </div>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link nav-color dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Catagories
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item nav-color" href="#">Dog Accessories</a>
+	          <a class="dropdown-item nav-color" href="#">Cat Accessories</a>
+	          <a class="dropdown-item nav-color" href="#">Medicines</a>
+	          <a class="dropdown-item nav-color" href="#">Foods</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item nav-color" href="#">All</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link nav-color" href="login.html">Login</a>
+	      </li>
+	    </ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+	  </div>
+	 </div>
+	</nav>
+
+	<!--Navbar Ends -->
+
+	<div class="row">
+		<div class="col-sm">
+			<div class="form" id="form">
+			  <h1 style="color: black;">Sign In</h1>
+			  <div class="field email">
+			    <div class="icon"></div>
+			    <input class="input" id="email" type="email" placeholder="Email" autocomplete="off"/>
+			  </div>
+			  <div class="field password">
+			    <div class="icon"></div>
+			    <input class="input" id="password" type="password" placeholder="Password"/>
+			  </div>
+			  <button class="button" id="submit">LOGIN
+			    <div class="side-top-bottom"></div>
+			    <div class="side-left-right"></div>
+			  </button><small>Fill in the form</small>
+			</div>
+		</div>
+		<div class="col-sm">
+			<div class="back"></div>
+			<div class="registration-form">
+			  <header>
+			    <h1>Sign Up</h1>
+			    <p>Fill in all informations</p>
+			  </header>
+			  <form>
+			    <div class="input-section email-section">
+			      <input class="email" type="email" placeholder="ENTER YOUR E-MAIL HERE" autocomplete="off"/>
+			      <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-lock"></i></span><span class="next-button email"><i class="fa fa-arrow-up"></i></span></div>
+			    </div>
+			    <div class="input-section password-section folded">
+			      <input class="password" type="password" placeholder="ENTER YOUR PASSWORD HERE"/>
+			      <div class="animated-button"><span class="icon-lock"><i class="fa fa-lock"></i></span><span class="next-button password"><i class="fa fa-arrow-up"></i></span></div>
+			    </div>
+			    <div class="input-section repeat-password-section folded">
+			      <input class="repeat-password" type="password" placeholder="REPEAT YOUR PASSWORD HERE"/>
+			      <div class="animated-button"><span class="icon-repeat-lock"><i class="fa fa-lock"></i></span><span class="next-button repeat-password"><i class="fa fa-paper-plane"></i></span></div>
+			    </div>
+			    <div class="success"> 
+			      <p>ACCOUNT CREATED</p>
+			    </div>
+			  </form>
+			</div>
+		</div>
+	</div>
+
+
+
+	  <footer style="position: absolute;bottom: 0%;width: 100%;">
+	  	<p>© All rights reserved by Pet Paradise   |   Designed, Developed & Maintained by <a href="https://www.facebook.com/iftiaz" target="_blank">Iftiaz Ahmed</a></p>
+	  </footer>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+    <script  src="js/signup.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
